@@ -1,7 +1,6 @@
 #include "str.h"
 using namespace std;
 //name:shahar solema
-//id:206579955
 //date:02/08/2024
 Str::Str() {//defualt constructor
 	m_str = new char[5];
