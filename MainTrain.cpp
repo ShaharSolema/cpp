@@ -14,7 +14,7 @@ int main() //Train
 	/*****************************A**************************************/
 	if( 0 != strcmp(bank.GetBankName(), "The First International Bank of Israel​ Ltd" ) )
 		cout << "Error in creating a bank object(-4)" << endl;
-
+	
 	/*****************************B**************************************/
 	account.AddPerson( Person( "Amit Choen", 30292827 ), 10000 );
 	if( account.GetTotalPersons() != 1 )
